@@ -18,3 +18,7 @@ This gives us a lookup table of all of these "x" values mapped to the force that
 6. In the "Tools" menu select "Teensy 4.0" as the board and the appropriate USB for the port.
 7. Connect the Teensy to your laptop via USB and then click the "upload" button in the IDE to flash.
 
+### Serial Output
+- Teensy code ouptuts debug info to serial
+- Use ```sudo cu -l <path to teensy usb device>``` on Mac or Linux to view serial output from Teensy(s)
+
