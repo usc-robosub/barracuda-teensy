@@ -1,5 +1,5 @@
 constexpr int NTHRUSTERS = 4;
-constexpr int PWM_PINS[] = { 0,1,4,5 };
+constexpr int PWM_PINS[] = { 3,5,6,9 };
 constexpr float PWM_FREQ = 500;
 constexpr int PWM_BIT_RES = 8;
 constexpr uint16_t INIT_DC = 192;
